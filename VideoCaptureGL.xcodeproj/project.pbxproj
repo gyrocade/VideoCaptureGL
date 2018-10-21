@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6072E7217C373200B1B7D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6072E6217C373200B1B7D1 /* AppDelegate.m */; };
+		CD6072ED217C373200B1B7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6072EB217C373200B1B7D1 /* Main.storyboard */; };
+		CD6072EF217C373300B1B7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6072EE217C373300B1B7D1 /* Assets.xcassets */; };
+		CD6072F2217C373300B1B7D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6072F0217C373300B1B7D1 /* LaunchScreen.storyboard */; };
+		CD6072F5217C373300B1B7D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6072F4217C373300B1B7D1 /* main.m */; };
+		CD6072FD217C375300B1B7D1 /* AVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6072FC217C375300B1B7D1 /* AVViewController.m */; };
+		CD607302217C37B300B1B7D1 /* GLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6072FE217C37B200B1B7D1 /* GLHelper.m */; };
+		CD607303217C37B300B1B7D1 /* ShaderProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD607300217C37B200B1B7D1 /* ShaderProcessor.m */; };
+		CD607306217C37D900B1B7D1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD607305217C37D900B1B7D1 /* CoreMedia.framework */; };
+		CD607308217C37E000B1B7D1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD607307217C37E000B1B7D1 /* CoreVideo.framework */; };
+		CD60730A217C37E700B1B7D1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD607309217C37E700B1B7D1 /* OpenGLES.framework */; };
+		CD60730C217C37ED00B1B7D1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60730B217C37ED00B1B7D1 /* GLKit.framework */; };
+		CD60730E217C37F500B1B7D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60730D217C37F500B1B7D1 /* AVFoundation.framework */; };
+		CD607310217C37FC00B1B7D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60730F217C37FC00B1B7D1 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD6072E2217C373200B1B7D1 /* VideoCaptureGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCaptureGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6072E5217C373200B1B7D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD6072E6217C373200B1B7D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD6072EC217C373200B1B7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6072EE217C373300B1B7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6072F1217C373300B1B7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6072F3217C373300B1B7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6072F4217C373300B1B7D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6072FB217C375300B1B7D1 /* AVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVViewController.h; sourceTree = "<group>"; };
+		CD6072FC217C375300B1B7D1 /* AVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVViewController.m; sourceTree = "<group>"; };
+		CD6072FE217C37B200B1B7D1 /* GLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLHelper.m; sourceTree = "<group>"; };
+		CD6072FF217C37B200B1B7D1 /* GLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLHelper.h; sourceTree = "<group>"; };
+		CD607300217C37B200B1B7D1 /* ShaderProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderProcessor.m; sourceTree = "<group>"; };
+		CD607301217C37B300B1B7D1 /* ShaderProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProcessor.h; sourceTree = "<group>"; };
+		CD607305217C37D900B1B7D1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CD607307217C37E000B1B7D1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CD607309217C37E700B1B7D1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CD60730B217C37ED00B1B7D1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CD60730D217C37F500B1B7D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD60730F217C37FC00B1B7D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6072DF217C373200B1B7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD607310217C37FC00B1B7D1 /* CoreGraphics.framework in Frameworks */,
+				CD60730E217C37F500B1B7D1 /* AVFoundation.framework in Frameworks */,
+				CD60730C217C37ED00B1B7D1 /* GLKit.framework in Frameworks */,
+				CD60730A217C37E700B1B7D1 /* OpenGLES.framework in Frameworks */,
+				CD607308217C37E000B1B7D1 /* CoreVideo.framework in Frameworks */,
+				CD607306217C37D900B1B7D1 /* CoreMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6072D9217C373200B1B7D1 = {
+			isa = PBXGroup;
+			children = (
+				CD6072E4217C373200B1B7D1 /* VideoCaptureGL */,
+				CD6072E3217C373200B1B7D1 /* Products */,
+				CD607304217C37D900B1B7D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6072E3217C373200B1B7D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6072E2217C373200B1B7D1 /* VideoCaptureGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6072E4217C373200B1B7D1 /* VideoCaptureGL */ = {
+			isa = PBXGroup;
+			children = (
+				CD6072FF217C37B200B1B7D1 /* GLHelper.h */,
+				CD6072FE217C37B200B1B7D1 /* GLHelper.m */,
+				CD607301217C37B300B1B7D1 /* ShaderProcessor.h */,
+				CD607300217C37B200B1B7D1 /* ShaderProcessor.m */,
+				CD6072E5217C373200B1B7D1 /* AppDelegate.h */,
+				CD6072E6217C373200B1B7D1 /* AppDelegate.m */,
+				CD6072FB217C375300B1B7D1 /* AVViewController.h */,
+				CD6072FC217C375300B1B7D1 /* AVViewController.m */,
+				CD6072EB217C373200B1B7D1 /* Main.storyboard */,
+				CD6072EE217C373300B1B7D1 /* Assets.xcassets */,
+				CD6072F0217C373300B1B7D1 /* LaunchScreen.storyboard */,
+				CD6072F3217C373300B1B7D1 /* Info.plist */,
+				CD6072F4217C373300B1B7D1 /* main.m */,
+			);
+			path = VideoCaptureGL;
+			sourceTree = "<group>";
+		};
+		CD607304217C37D900B1B7D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD60730F217C37FC00B1B7D1 /* CoreGraphics.framework */,
+				CD60730D217C37F500B1B7D1 /* AVFoundation.framework */,
+				CD60730B217C37ED00B1B7D1 /* GLKit.framework */,
+				CD607309217C37E700B1B7D1 /* OpenGLES.framework */,
+				CD607307217C37E000B1B7D1 /* CoreVideo.framework */,
+				CD607305217C37D900B1B7D1 /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6072E1217C373200B1B7D1 /* VideoCaptureGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6072F8217C373300B1B7D1 /* Build configuration list for PBXNativeTarget "VideoCaptureGL" */;
+			buildPhases = (
+				CD6072DE217C373200B1B7D1 /* Sources */,
+				CD6072DF217C373200B1B7D1 /* Frameworks */,
+				CD6072E0217C373200B1B7D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoCaptureGL;
+			productName = VideoCaptureGL;
+			productReference = CD6072E2217C373200B1B7D1 /* VideoCaptureGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6072DA217C373200B1B7D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					CD6072E1217C373200B1B7D1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = CD6072DD217C373200B1B7D1 /* Build configuration list for PBXProject "VideoCaptureGL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6072D9217C373200B1B7D1;
+			productRefGroup = CD6072E3217C373200B1B7D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6072E1217C373200B1B7D1 /* VideoCaptureGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6072E0217C373200B1B7D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6072F2217C373300B1B7D1 /* LaunchScreen.storyboard in Resources */,
+				CD6072EF217C373300B1B7D1 /* Assets.xcassets in Resources */,
+				CD6072ED217C373200B1B7D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6072DE217C373200B1B7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD607302217C37B300B1B7D1 /* GLHelper.m in Sources */,
+				CD6072F5217C373300B1B7D1 /* main.m in Sources */,
+				CD607303217C37B300B1B7D1 /* ShaderProcessor.m in Sources */,
+				CD6072E7217C373200B1B7D1 /* AppDelegate.m in Sources */,
+				CD6072FD217C375300B1B7D1 /* AVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD6072EB217C373200B1B7D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6072EC217C373200B1B7D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6072F0217C373300B1B7D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6072F1217C373300B1B7D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6072F6217C373300B1B7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD6072F7217C373300B1B7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6072F9217C373300B1B7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F6Z4YU8EA;
+				INFOPLIST_FILE = VideoCaptureGL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VideoCaptureGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6072FA217C373300B1B7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F6Z4YU8EA;
+				INFOPLIST_FILE = VideoCaptureGL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VideoCaptureGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6072DD217C373200B1B7D1 /* Build configuration list for PBXProject "VideoCaptureGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6072F6217C373300B1B7D1 /* Debug */,
+				CD6072F7217C373300B1B7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6072F8217C373300B1B7D1 /* Build configuration list for PBXNativeTarget "VideoCaptureGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6072F9217C373300B1B7D1 /* Debug */,
+				CD6072FA217C373300B1B7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6072DA217C373200B1B7D1 /* Project object */;
+}
